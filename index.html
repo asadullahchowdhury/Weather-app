@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="app.js" defer></script>
+</head>
+<body>
+
+<h1 class="landing-title">Weather App</h1>
+
+<div class="weather-card">
+    <div class="search-wrap">
+        <input type="text" class="search-input" placeholder="Enter city name" spellcheck="false">
+        <button type="button" class="search-btn">
+            <img src="/images/search.png" alt="search">
+        </button>
+    </div>
+<div class="error">Invalid city name</div>
+    <div class="weather">
+        <img src="/images/rain.png" class="weather-icon" alt="rain">
+        <h1 class="temp">22°c</h1>
+        <h2 class="city">New York</h2>
+
+        <div class="details">
+            <div class="col">
+                <img src="/images/humidity.png" alt="humidity">
+                <div class="hmidity">
+                    <p class="humidity">50%</p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+
+            <div class="col">
+                <img src="/images/wind.png" alt="wind">
+                <div class="">
+                    <p class="wind">15 km/h</p>
+                    <p>Wind speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
